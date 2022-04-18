@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:tugas_2/register_page.dart';
-import 'package:tugas_2/tools/common_submit_button.dart';
+import 'package:tugas2_prakTPM/register_page.dart';
+import 'package:tugas2_prakTPM/tools/common_submit_button.dart';
 import 'homepage.dart';
 import 'model/account_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -143,8 +143,8 @@ class _LoginPageState extends State<LoginPage> {
 
     }
     }    if (isLogin == false) {
-      _showToast("Akun Tidak Ada", duration: Toast.LENGTH_SHORT,
-          gravity: ToastGravity.BOTTOM);
+      _showToast("Account is not found", duration: Toast.LENGTH_LONG,
+          gravity: ToastGravity.TOP);
     }
   }
 

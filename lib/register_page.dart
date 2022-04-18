@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:tugas_2/model/account_model.dart';
-import 'package:tugas_2/tools/common_submit_button.dart';
+import 'package:tugas2_prakTPM/model/account_model.dart';
+import 'package:tugas2_prakTPM/tools/common_submit_button.dart';
 
 import 'login_page.dart';
 

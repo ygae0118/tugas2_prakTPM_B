@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:tugas_2/homepage.dart';
-import 'package:tugas_2/login_page.dart';
-import 'package:tugas_2/model/account_model.dart';
+import 'package:tugas2_prakTPM/homepage.dart';
+import 'package:tugas2_prakTPM/login_page.dart';
+import 'package:tugas2_prakTPM/model/account_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 Future<void> main() async {
